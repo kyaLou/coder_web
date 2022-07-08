@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  background-color: $colorPrimario;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "icon icon title title title nav nav nav nav"
+    "icon icon title title title nav nav nav nav";
+
+  padding: 20px;
+
+  img {
+    width: 50px;
+    grid-area: icon;
+
+  }
+
+  h1 {
+    color: $colorTextoPrimario;
+    font-family: $fuentePrincipal;
+    grid-area: title;
+
+  }
+
+  nav {
+    grid-area: nav;
+
+
+    ul {
+      li {
+        a {
+          color: $colorTextoPrimario;
+          font-family: $fuentePrincipal;
+          font-size: 1.2em;
+          text-decoration: none;
+          padding: 10px;
+          &:hover {
+            background-color: $colorPrimarioLight !important;
+          }
+        }
+      }
+    }
+  }
+}

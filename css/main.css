@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+header {
+  width: 100%;
+  background-color: #020024;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "icon icon title title title nav nav nav nav" "icon icon title title title nav nav nav nav";
+  padding: 20px; }
+  header img {
+    width: 50px;
+    grid-area: icon; }
+  header h1 {
+    color: #fff;
+    font-family: "Oswald", "sans-serif";
+    grid-area: title; }
+  header nav {
+    grid-area: nav; }
+    header nav ul li a {
+      color: #fff;
+      font-family: "Oswald", "sans-serif";
+      font-size: 1.2em;
+      text-decoration: none;
+      padding: 10px; }
+      header nav ul li a:hover {
+        background-color: rgba(4, 83, 90, 0.5) !important; }
