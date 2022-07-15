@@ -25,3 +25,26 @@ header {
       padding: 10px; }
       header nav ul li a:hover {
         background-color: rgba(4, 83, 90, 0.5) !important; }
+
+.btn, .btn-primary, .btn-secondary {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem; }
+
+.btn-primary {
+  background-color: rgba(4, 83, 90, 0.5);
+  border-color: rgba(4, 83, 90, 0.5);
+  color: #fff; }
+
+.btn-secondary {
+  background-color: #020024;
+  border-color: #020024;
+  color: #fff; }
+
+.a-link-redes {
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif; }
